@@ -1,0 +1,16 @@
+body {
+    background-color:darkblue;
+    margin: 0px;
+    font-family: Arial;
+}
+
+.section1 {
+    display: Flex;
+    flex-direction: row;
+
+}
+
+input [type='button'] {
+    background-color:darkblue;
+    padding: 10px 20px;
+}
