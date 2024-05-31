@@ -7,10 +7,17 @@ body {
 .section1 {
     display: flex;
     flex-direction: row;
-
+    align-items: center;
 }
 
-input [type='button'] {
-    background-color:darkblue;
-    padding: 10px 20px;
+input [type='button'] {                                                                                                                                                                                                                px;
+    color:white;
+    font: large; 
+}
+
+a:visited {
+    color:white
+}
+a:hover {
+    color:red
 }
