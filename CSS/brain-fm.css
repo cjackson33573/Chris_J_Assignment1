@@ -1,16 +1,47 @@
 body {
+    display:flex;
+    flex-direction: column;
     background-color:darkblue;
     margin: 0px;
     font-family: Arial;
 }
 
-.section1 {
+.header,
+.content,
+
+.header {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    color:white;
 }
 
-input [type='button'] {                                                                                                                                                                                                                px;
+.content {
+    display:flex;
+    flex-direction:row;
+    flex-basis: 100%;
+}
+
+.content-column {
+    display:flex;
+    flex-direction: column;
+}
+ 
+.content-column-para:nth-child(1) {
+    flex-direction:column; 
+     border:solid, red; 
+}
+     
+.content-column-endorsements:nth-child(2) {
+    flex-direction:column;
+    border: solid, red;
+}
+
+.content-column-gifpic:nth-child(1) {
+    flex-direction: row;
+    border:solid, red;
+ }  
+
+input [type='button'] {                                                                                                                                                                                                                
     color:white;
     font: large; 
 }
