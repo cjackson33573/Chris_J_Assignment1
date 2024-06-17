@@ -11,34 +11,38 @@ body {
 
 .header {
     display: flex;
-    flex-direction: row;
+    justify-content:center;
+    align-items:center;
     color:white;
 }
 
 .content {
-    display:flex;
-    flex-direction:row;
-    flex-basis: 100%;
+display:flex;
+padding-top: 50px;
 }
 
 .content-column {
     display:flex;
+    width: 300px;
     flex-direction: column;
 }
  
 .content-column-para:nth-child(1) {
     flex-direction:column; 
-     border:solid, red; 
+    width: 600px;
+    border:solid, red; 
 }
      
 .content-column-endorsements:nth-child(2) {
-    flex-direction:column;
-    border: solid, red;
+    flex-direction: column;
+    border: solid, green;
 }
 
-.content-column-gifpic:nth-child(1) {
-    flex-direction: row;
-    border:solid, red;
+
+.gifpic {
+    flex-direction:row;
+    flex-grow:2;
+    border: solid black;
  }  
 
 input [type='button'] {                                                                                                                                                                                                                
