@@ -1,13 +1,14 @@
 body {
     display:flex;
     flex-direction: column;
-    background-color:darkblue;
+    background-color:#4915f8;
     margin: 0px;
     font-family: Arial;
 }
 
 .header,
 .content,
+.footer,
 
 .header {
     display: flex;
@@ -17,19 +18,26 @@ body {
 }
 
 .content {
-display:flex;
-padding-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 50px;
+    height: 500px;
 }
 
 .content-column {
     display:flex;
     width: 300px;
+    flex-grow:2;
     flex-direction: column;
+    align-content:center;
+    align-items:last baseline;
 }
  
 .content-column-para:nth-child(1) {
     flex-direction:column; 
-    width: 600px;
+
+    height:200px;
     border:solid, red; 
 }
      
@@ -38,12 +46,18 @@ padding-top: 50px;
     border: solid, green;
 }
 
-
+.footer {
+    display:flex;
+}
 .gifpic {
     flex-direction:row;
     flex-grow:2;
     border: solid black;
  }  
+
+ .headphonegif {
+    border: solid brown;
+ }
 
 input [type='button'] {                                                                                                                                                                                                                
     color:white;
