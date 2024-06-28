@@ -35,28 +35,42 @@ body {
 }
  
 .content-column-para:nth-child(1) {
-    flex-direction:column; 
-
+    flex-direction:column;
     height:200px;
-    border:solid, red; 
 }
      
 .content-column-endorsements:nth-child(2) {
     flex-direction: column;
-    border: solid, green;
 }
 
-.footer {
-    display:flex;
-}
 .gifpic {
     flex-direction:row;
     flex-grow:2;
-    border: solid black;
  }  
 
+.footer {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+
+}
  .headphonegif {
-    border: solid brown;
+    display:flex;
+    flex-direction:column;
+    width: 350px;
+    padding: 50px;
+    text-align:left;
+    align-items:center;
+    text-wrap:wrap;
+ }
+
+ .picture-threepng {
+    display:flex;
+    flex-direction:column;
+    width: 350px;
+    padding: 40px;
+    align-items:center; 
  }
 
 input [type='button'] {                                                                                                                                                                                                                
