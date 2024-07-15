@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:\\Users\\chris\\Bootcamp_Workspace\\Chris_J_Assignment1\\brain-fm.html",
+            "url": "\\Chris_J_Assignment1\\brain-fm.html",
         }
     ]
 }
